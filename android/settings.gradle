@@ -1,0 +1,7 @@
+rootProject.name = 'reacttest'
+include ':react-native-fs'
+project(':react-native-fs').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fs/android')
+include ':react-native-pdf-view'
+project(':react-native-pdf-view').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-pdf-view/android')
+
+include ':app'
