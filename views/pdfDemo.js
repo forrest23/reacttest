@@ -8,7 +8,7 @@ import RNFS from 'react-native-fs';
 const pdfDownloadURL = 'http://image.tianjimedia.com/imagelist/2009/190/caq4z56jadof.pdf';
 var {height, width} = Dimensions.get('window');
 
-export default class Pdf extends Component {
+export default class PdfDemo extends Component {
     constructor(props) {
         super(props);
         this.state = {

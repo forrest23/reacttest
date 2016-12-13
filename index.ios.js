@@ -8,12 +8,14 @@ import React, { Component } from 'react';
 import {
   AppRegistry,
 } from 'react-native';
-import App from './views/pdf'
+import PdfDemo from './views/pdfDemo'
+import AnimatedDemo from './views/animatedDemo'
+
 
 export default class reacttest extends Component {
   render() {
     return (
-      <App />
+      <AnimatedDemo />
     );
   }
 }
