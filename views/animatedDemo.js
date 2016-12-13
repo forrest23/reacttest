@@ -1,9 +1,6 @@
 'use strict';
-
 import React, { Component } from 'react';
 import { StyleSheet, View, Text, ScrollView, Dimensions, Animated, Image } from 'react-native';
-
-
 var {height, width} = Dimensions.get('window');
 
 export default class AnimatedDemo extends Component {
@@ -17,9 +14,9 @@ export default class AnimatedDemo extends Component {
     componentDidMount() {
         Animated.spring(this.state.anim, {
             toValue: 1,
-            velocity: 6,
-            tension: -20,
-            friction: 3,
+            velocity: 6, //初始速度
+            tension: -20, //弹跳的速度值
+            friction: 3, //摩擦力值
         }).start();
     }
 

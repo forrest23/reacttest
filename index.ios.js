@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import PdfDemo from './views/pdfDemo'
 import AnimatedDemo from './views/animatedDemo'
+import AnimatedDemoTwo from './views/animatedDemoTwo'
 
 
 export default class reacttest extends Component {
