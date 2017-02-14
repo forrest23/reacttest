@@ -9,8 +9,10 @@
   "dependencies": {
     "react": "15.4.1",
     "react-native": "0.39.0",
+    "react-native-code-push": "^1.16.1-beta",
     "react-native-fs": "^1.5.1",
-    "react-native-pdf-view": "^0.3.2"
+    "react-native-pdf-view": "^0.3.2",
+    "react-native-fingerprint":"guanaitong/react-native-fingerprint.git#0.0.2"
   },
   "devDependencies": {
     "babel-jest": "17.0.2",

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { StyleSheet, View, Text, ScrollView, Dimensions, Animated, Image } from 'react-native';
 var {height, width} = Dimensions.get('window');
 
+
 export default class AnimatedDemo extends Component {
     constructor(props) {
         super(props);
