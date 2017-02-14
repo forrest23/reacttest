@@ -11,20 +11,21 @@ import {
 import PdfDemo from './views/pdfDemo'
 import AnimatedDemo from './views/animatedDemo'
 import AnimatedDemoTwo from './views/animatedDemoTwo'
-import ShareDemo from './views/shareDemo'
+import FingerPrintIos from './views/fingerPrintIos'
+
 import CodePush from "react-native-code-push";
 
 export default class reacttest extends Component {
   componentDidMount() {
-    CodePush.sync({
-      updateDialog: true,
-      installMode: CodePush.InstallMode.IMMEDIATE
-    });
+    // CodePush.sync({
+    //   updateDialog: true,
+    //   installMode: CodePush.InstallMode.IMMEDIATE
+    // });
   }
 
   render() {
     return (
-      <ShareDemo />
+      <FingerPrintIos />
     );
   }
 }

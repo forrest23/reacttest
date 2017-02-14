@@ -12,6 +12,7 @@ import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
+import com.reactnativefingerprint.FingerprintPackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -36,7 +37,8 @@ public class MainApplication extends Application implements ReactApplication {
           new MainReactPackage(),
             new CodePush("6CksU9WR8oeou3OBBzKyUyEH3g0y4ksvOXqog", getApplicationContext(), BuildConfig.DEBUG,"http://codepush.ganyin.win"),
             new RNFSPackage(),
-            new PDFView()
+            new PDFView(),
+            new FingerprintPackage()
       );
     }
   };
